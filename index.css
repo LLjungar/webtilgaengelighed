@@ -1,8 +1,8 @@
-/* Yderligere stilarter for større skærme (over 767px) */
+/* stilarter for større skærme (over 767px) */
 @media only screen and (min-width: 768px) {
-   main img {
+  main img {
     width: 100%;
-   }
+  }
 
   main {
     display: grid;

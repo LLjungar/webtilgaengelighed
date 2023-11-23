@@ -1,0 +1,13 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Fjerner ekstra mellemrum under billedet */
+  margin: 0 auto; /* Centrerer billedet */
+}
+
+/* Medieforespørgsel for skærme, der er 768px eller bredere */
+@media screen and (min-width: 768px) {
+  img {
+    max-width: 50%; /* Ændrer bredden til 70% af forælderens bredde */
+  }
+}
